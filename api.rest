@@ -1,0 +1,35 @@
+GET http://localhost:3100/tasks
+
+#################################################
+
+POST http://localhost:3100/tasks
+content-type: application/json
+
+{
+    "title": "Tereso",
+    "description": "Raul"
+}
+
+#################################################
+
+#DELETE http://localhost:3100/tasks/:id
+
+DELETE http://localhost:3100/tasks/6047dd36604a6c0bb4e2032a
+content-type: application/json
+
+{
+    "title": "Tereso",
+    "description": "Raul"
+}
+
+#################################################
+
+#PUT http://localhost:3100/tasks/:id
+
+PUT http://localhost:3100/tasks/6047e15a6a5a970e1ac63b12
+content-type: application/json
+
+{
+    "title": "Bye world",
+    "description": "After say hello world, say bye world"
+}
