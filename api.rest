@@ -17,11 +17,6 @@ content-type: application/json
 DELETE http://localhost:3100/tasks/6047dd36604a6c0bb4e2032a
 content-type: application/json
 
-{
-    "title": "Tereso",
-    "description": "Raul"
-}
-
 #################################################
 
 #PUT http://localhost:3100/tasks/:id
