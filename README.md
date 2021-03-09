@@ -4,6 +4,9 @@
 
 ### This project uses Express and MongoDB with TypeScript
 
+View the [Deployed app](https://tasky-tasks.herokuapp.com/tasks)
+#### The routes are written in the [api.rest](./api.rest) file
+
 - Intallation:
     - Clone the repository
     - Then, install the modules with `npm install` or `yarn`.
