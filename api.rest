@@ -6,8 +6,8 @@ POST http://localhost:3100/tasks
 content-type: application/json
 
 {
-    "title": "Tereso",
-    "description": "Raul"
+    "title": "Hello",
+    "description": "World"
 }
 
 #################################################
